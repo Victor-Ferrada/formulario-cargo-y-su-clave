@@ -4,7 +4,7 @@ body {
     font-size: 100%;
     color: #1b262c;
     margin: 0;
-    background: -webkit-linear-gradient(90deg, #3de6ad,#11eee3,#0086ff);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #3de6ad,#11eee3,#0086ff);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+    background: -webkit-linear-gradient(90deg, #3de6ad,#11eee3,#0086ff);
 }
 
 #contenedor {
