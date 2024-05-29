@@ -3,9 +3,8 @@ body {
     font-weight: normal;
     font-size: 100%;
     color: #1b262c;
-    
     margin: 0;
-    background-color: #0f4c75;
+    background: -webkit-linear-gradient(90deg, #3de6ad,#11eee3,#0086ff);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #3de6ad,#11eee3,#0086ff);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
 }
 
 #contenedor {
@@ -94,6 +93,19 @@ body {
 #login button:hover {
     background-color: #0f4c75;
     color:#bbe1fa;
+}
+
+.error {
+    color: rgb(255, 0, 0);
+    font-size: 1.2em;
+    font-weight: bold; 
+    text-align: center;
+    margin-top: 15px;
+}
+
+.error:not(:empty) {
+    background-color: rgb(255, 235, 80);
+    padding: 10px;
 }
 
 .pie-form {
